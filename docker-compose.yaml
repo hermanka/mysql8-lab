@@ -1,0 +1,8 @@
+services:    
+  mysql-db:
+    container_name: mysql8
+    build: .
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 'toor'
+    
