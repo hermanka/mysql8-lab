@@ -11,3 +11,8 @@ Just another lab for practice MySQL.
 ## Connect to MySQL
 
 Please use terminal in Docker Desktop
+
+```
+> mysql -uroot -p
+pass: toor
+```
