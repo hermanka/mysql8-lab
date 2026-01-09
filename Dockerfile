@@ -8,5 +8,5 @@ ENV DEBIAN_FRONTEND=noninteractive
 # It is a best practice to combine update and install into a single RUN instruction
 # to ensure all packages are installed with the latest information and to reduce image size.
 RUN apt-get update && apt-get install -y \
-    tcpdump \
+    tcpdump nano\
     && rm -rf /var/lib/apt/lists/*
